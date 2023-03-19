@@ -1,11 +1,9 @@
-type combinable = number | string
-
-function combine(input1: combinable, input2: combinable) {
-  return input1
+function add(n1: number, n2: number): number {
+  return n1 + n2
 }
 
-const combinedAges = combine(30, 26) 
-console.log(combinedAges);
+function printResulet(n1: number): void {
+  console.log(n1)
+}
 
-const combinedNames = combine('Max', 'Anna');
-console.log(combinedNames);
+printResulet(add(5, 10))
