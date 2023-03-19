@@ -1,32 +1,19 @@
-// let person: {
-//   name: string,
-//   age: number,
-//   sports: string[]
-//   role: [number, string]
-//   //tuple型
+// function combine(input1: number | string, input2: number | string) {
+//   let result;
+//   if (typeof input1 === 'number' && typeof input2 === 'number') {
+//     result = input1 + input2;
+//   } else {
+//     result = input1.toString() + input2.toString();
+//   }
+//   return result;
 // }
-// person = {
-//   name: 'aaa',
-//   age: 22,
-//   sports: ['soccer', 'baseball', ],
-//   role: [2, 'nagao '],
-// }
-var Role;
-(function (Role) {
-    Role[Role["ADMIN"] = 0] = "ADMIN";
-    Role[Role["READ"] = 1] = "READ";
-    Role[Role["AAA"] = 2] = "AAA";
-})(Role || (Role = {}));
-var person = {
-    name: 'aaa',
-    age: 22,
-    sports: ['soccer', 'baseball',],
-    role: Role.AAA
-};
-for (var _i = 0, _a = person.sports; _i < _a.length; _i++) {
-    var sport = _a[_i];
-    console.log(sport);
+// const combinedAges = combine(30, 26);
+// console.log(combinedAges);
+// const combinedNames = combine('Max', 'Anna');
+// console.log(combinedNames);
+function combine(input1, input2) {
+    var result = input1 + input2;
+    return result;
 }
-if (person.role == Role.AAA) {
-    console.log('dfd');
-}
+var combinedAges = combine(30, 26);
+console.log(combinedAges);

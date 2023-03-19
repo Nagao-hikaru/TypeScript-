@@ -1,33 +1,26 @@
-// let person: {
-//   name: string,
-//   age: number,
-//   sports: string[]
-//   role: [number, string]
-//   //tuple型
+// function combine(input1: number | string, input2: number | string) {
+//   let result;
+//   if (typeof input1 === 'number' && typeof input2 === 'number') {
+//     result = input1 + input2;
+//   } else {
+//     result = input1.toString() + input2.toString();
+//   }
+//   return result;
 // }
 
-// person = {
-//   name: 'aaa',
-//   age: 22,
-//   sports: ['soccer', 'baseball', ],
-//   role: [2, 'nagao '],
-// }
+// const combinedAges = combine(30, 26);
+// console.log(combinedAges);
 
-enum Role {
-  ADMIN, READ, AAA
+// const combinedNames = combine('Max', 'Anna');
+// console.log(combinedNames);
+
+function combine(input1: number | string, input2: number | string) {
+  const result = input1 + input2
+  return result
 }
 
-const person = {
-  name: 'aaa',
-  age: 22,
-  sports: ['soccer', 'baseball', ],
-  role: Role.AAA,
-}
+const combinedAges = combine(30, 26) 
+console.log(combinedAges);
 
-for (const sport of person.sports) {
-  console.log(sport)
-}
-
-if (person.role == Role.AAA) {
-  console.log('dfd')
-}
+const combinedNames = combine('Max', 'Anna');
+console.log(combinedNames);
