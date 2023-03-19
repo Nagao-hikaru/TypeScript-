@@ -1,12 +1,17 @@
-let aa: string
-
-//変数は、初期化がない場合は、肩を指定する。
-//初期化している場合、型推論しているので必要なし
-
-aa = 'dd'
-
-function ii(aa: boolean) {
-  console.log('asdfasfaf')
+let person: {
+  name: string,
+  age: number,
+  sports: string[]
 }
 
-ii(aa)
+person = {
+  name: 'aaa',
+  age: 22,
+  sports: ['soccer', 'baseball', ]
+}
+
+for (const sport of person.sports) {
+  console.log(sport)
+}
+
+console.error(person )
