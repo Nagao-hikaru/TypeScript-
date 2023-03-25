@@ -1,6 +1,8 @@
 type combinable = number | string
 
 function combine(input1: combinable, input2: combinable) {
+  input1
+  input2
   return input1
 }
 

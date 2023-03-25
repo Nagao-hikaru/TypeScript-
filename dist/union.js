@@ -1,5 +1,7 @@
 "use strict";
 function combine(input1, input2) {
+    input1;
+    input2;
     return input1;
 }
 var combinedAges = combine(30, 26);
