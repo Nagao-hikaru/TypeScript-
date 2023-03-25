@@ -15,3 +15,4 @@ function addAndResult(n1, n2, cb) {
 addAndResult(10, 10, function (result) {
     console.log(result);
 });
+//# sourceMappingURL=function.js.map

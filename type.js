@@ -31,3 +31,4 @@ for (var _i = 0, _a = person.sports; _i < _a.length; _i++) {
 if (person.role == Role.AAA) {
     console.log('dfd');
 }
+//# sourceMappingURL=type.js.map
