@@ -1,6 +1,4 @@
 "use strict";
-var button = document.querySelector('button');
-button.addEventListener('click', function () {
-    console.log('click');
-});
+var aa = 'const';
+aa = 'kkk';
 //# sourceMappingURL=app.js.map

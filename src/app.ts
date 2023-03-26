@@ -1,5 +1,3 @@
-const button = document.querySelector('button')!
+const aa = 'const'
 
-button.addEventListener('click', () => {
-  console.log('click')
-})
+aa = 'kkk'
