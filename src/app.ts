@@ -7,4 +7,5 @@ console.log(addNow(1, 2))
 const hobbies = ['sports', 'cooking']
 
 hobbies.push(...hobbies)
+// スプレッド演算子
 console.log(hobbies)
