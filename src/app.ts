@@ -1,19 +1,11 @@
-const addNow = (a: number, b: number = 22) => {
-  return a + b
+class Department {
+  name: string
+
+  constructor(n: string) {
+    this.name = n
+  }
 }
 
-console.log(addNow(1, 2))
+const accounting = new Department('nagao')
 
-const hobbies = ['sports', 'cooking']
-
-hobbies.push(...hobbies)
-// スプレッド演算子
-console.log(hobbies)
-
-const uu = (...numbers: number[]) => {
-  return numbers.reduce((result, value) => {
-    return result + value
-  }, 0);
-}
-
-console.log(uu(1, 2, 3, 4))
+console.log(accounting)
