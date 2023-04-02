@@ -4,8 +4,8 @@ function combine(input1, input2) {
     input2;
     return input1;
 }
-var combinedAges = combine(30, 26);
+const combinedAges = combine(30, 26);
 console.log(combinedAges);
-var combinedNames = combine('Max', 'Anna');
+const combinedNames = combine('Max', 'Anna');
 console.log(combinedNames);
 //# sourceMappingURL=union.js.map

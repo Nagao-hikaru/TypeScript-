@@ -4,6 +4,10 @@ class Department {
   constructor(n: string) {
     this.name = n
   }
+
+  describe() {
+    
+  }
 }
 
 const accounting = new Department('nagao')
