@@ -1,10 +1,12 @@
 "use strict";
 class Department {
-    constructor(n) {
+    constructor(name) {
+        this.name = name;
         this.emp = [];
-        this.name = n;
+        // this.name = n
     }
     describe() {
+        this.name = 'uu';
         console.log('department' + this.name);
     }
     addEmp(employe) {

@@ -1,12 +1,12 @@
 class Department {
-  name: string
   private emp: string[] = []
 
-  constructor(n: string) {
-    this.name = n
+  constructor(private name: string) {
+    // this.name = n
   }
 
   describe(this: Department) {
+    this.name = 'uu'
     console.log('department' + this.name)
   }
 
