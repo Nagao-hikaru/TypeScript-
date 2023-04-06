@@ -3,7 +3,6 @@ class Department {
     constructor(name) {
         this.name = name;
         this.emp = [];
-        // this.name = n
     }
     describe() {
         this.name = 'uu';
