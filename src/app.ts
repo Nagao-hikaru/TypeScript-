@@ -2,7 +2,6 @@ class Department {
   private emp: string[] = []
 
   constructor(private name: string) {
-    // this.name = n
   }
 
   describe(this: Department) {
