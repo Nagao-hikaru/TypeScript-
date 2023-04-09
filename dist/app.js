@@ -1,8 +1,10 @@
 "use strict";
 class Department {
-    constructor(name) {
+    constructor(name, tt) {
         this.name = name;
         this.emp = [];
+        this.name = name;
+        this.emp = [...tt];
     }
     describe() {
         this.name = 'uu';
@@ -14,5 +16,14 @@ class Department {
     }
 }
 class ItDepartment extends Department {
+    constructor(id, admins) {
+        console.log(id);
+        console.log(admins);
+        super(id, admins);
+        this.admins = admins;
+    }
 }
+const aae = new ItDepartment('nagao', ['uuu']);
+console.log(aae);
+aae.describe();
 //# sourceMappingURL=app.js.map
