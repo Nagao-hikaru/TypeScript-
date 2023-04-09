@@ -15,8 +15,6 @@ class Department {
   }
 }
 
-const accounting = new Department('nagao')
+class ItDepartment extends Department {
 
-
-
-console.log(accounting.addEmp('uu'))
+}

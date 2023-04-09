@@ -13,6 +13,6 @@ class Department {
         console.log(this.emp);
     }
 }
-const accounting = new Department('nagao');
-console.log(accounting.addEmp('uu'));
+class ItDepartment extends Department {
+}
 //# sourceMappingURL=app.js.map
