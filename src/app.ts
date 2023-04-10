@@ -47,6 +47,10 @@ class ItDepartment extends Department {
     this.admins = admins
   }
 
+  describe() {
+    return 'yayayayay'
+  }
+
   addReport(text: string) {
     this.lastReport = text
   }
