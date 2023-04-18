@@ -1,5 +1,5 @@
 interface Greetable {
-  age: number;
+  readonly age: number;
 
   greet(phase: string) : void;
 }
@@ -26,3 +26,9 @@ class Person implements Greetable {
     console.log(ja)
   }
 }
+
+let tt: Greetable
+
+tt = new Person(20)
+
+console.log(tt.age)

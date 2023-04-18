@@ -15,4 +15,7 @@ class Person {
         console.log(ja);
     }
 }
+let tt;
+tt = new Person(20);
+console.log(tt.age);
 //# sourceMappingURL=app.js.map
