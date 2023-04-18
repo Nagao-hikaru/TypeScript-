@@ -7,4 +7,6 @@ user = {
         console.log(phase);
     }
 };
+class Person {
+}
 //# sourceMappingURL=app.js.map

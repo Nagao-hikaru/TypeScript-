@@ -14,3 +14,6 @@ user = {
   }
 
 }
+
+class Person implements Greetable {
+}
