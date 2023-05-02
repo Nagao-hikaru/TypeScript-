@@ -16,3 +16,9 @@ const tt: ElevatedEmployee = {
   privileges: ['uuuuuu'],
   startDate: new Date()
 }
+
+type sss = string | number;
+
+function add(a: sss, b: sss) {
+  return a + b;
+}
