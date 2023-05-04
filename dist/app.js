@@ -4,7 +4,8 @@ const tt = {
     privileges: ['uuuuuu'],
     startDate: new Date()
 };
-function add(a, b) {
-    return a + b;
+function add(a) {
+    if ('name' in a)
+        return a;
 }
 //# sourceMappingURL=app.js.map
