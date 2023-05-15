@@ -23,3 +23,7 @@ function add(a: ElevatedEmployee) {
   if ('name' in a)
   return a;
 }
+
+const add = () => {
+  // アロー関数
+}

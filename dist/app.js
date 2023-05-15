@@ -8,4 +8,7 @@ function add(a) {
     if ('name' in a)
         return a;
 }
+const add = () => {
+    // アロー関数
+};
 //# sourceMappingURL=app.js.map
